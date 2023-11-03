@@ -1,0 +1,69 @@
+[
+  {
+    "title": "BOOKI",
+    "imageFileName": "Booki.png",
+    "githubLink": "https://github.com/MTFL1/Booki.git",
+    "description": [
+      "À partir d'une maquette Figma,",
+      "réalisation d'un site statique en HTML et CSS sans framework et responsive."
+    ],
+    "skills": ["HTML", "CSS"]
+  },
+  {
+    "title": "OH MY FOOD",
+    "imageFileName": "ohmyfood.png",
+    "githubLink": "https://github.com/MTFL1/OhMyFood.git",
+    "description": [
+      "À partir d'une maquette Figma,",
+      "réalisation d'un site 'Mobile First' en HTML et CSS, avec animations."
+    ],
+    "skills": ["HTML", "CSS", "Animations"]
+  },
+  {
+    "title": "PORTFOLIO SOPHIE BLUEL",
+    "imageFileName": "sophie-bluel.png",
+    "githubLink": "https://github.com/MTFL1/P6_Portfolio.git",
+    "description": [
+      "À partir d'une page statique,",
+      "de Swagger et d'un backend,",
+      "réalisation d'un site dynamique en HTML,", 
+      "SASS et JavaScript."
+    ],
+    "skills": ["HTML", "CSS", "FIGMA", "JAVASCRIPT"]
+  },
+  {
+    "title": "PORTFOLIO NINA CARDUCCI",
+    "imageFileName": "Ninacarducci.png",
+    "githubLink": "https://github.com/MTFL1/NinaCarducci.git",
+    "description": [
+      "À partir d'un site existant,",
+      "réalisation de l'optimisation,",
+      "de l'accessibilité et",
+      "du référencement naturel."
+    ],
+    "skills": ["HTML", "LIGHTHOUSE", "WAVE", "SCHEMA.ORG"]
+  },
+  {
+    "title": "KASA",
+    "imageFileName": "Kasa.png",
+    "githubLink": "https://github.com/MTFL1/kasa.git",
+    "description": [
+      "À partir d'un fichier JSON",
+      "et d'une maquette Figma,",
+      "réalisation d'un site dynamique en HTML, SASS et React."
+    ],
+    "skills": ["HTML", "SASS", "FIGMA", "REACT", "ROUTER"]
+  },
+  {
+    "title": "ARGENT BANK",
+    "imageFileName": "argentBank.png",
+    "githubLink": "https://github.com/MTFL1/ArgentBank-website.git",
+    "description": [
+      "À partir d'un design",
+      "réalisé en HTML et CSS,",
+      "d'un backend express/mongoDB,",
+      "réalisation d'une application bancaire en React et en utilisant Redux-Toolkit."
+    ],
+    "skills": ["REACT", "REDUX"]
+  }
+]

@@ -1,19 +1,48 @@
 .contenairContactForm{
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 30px; 
-    background-color: white;  
-}
-
-img{
-    width: 300px;
-    height: 300px;
-}
-
-form{
+    width: 40%;
+    margin: 0 auto; /* Ajoutez cette ligne pour centrer horizontalement */
     display: flex;
     flex-direction: column;
-    width: 400px;
-    height: 400px;
+    align-items: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+        
+    img{
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.emojiText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    span{
+        margin-top: 10px;
+    }
+   
+}
+.fa-phone{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.ButtonEnvoyer{
+    button {
+        margin-bottom: 10px;
+        border-radius: 10px; /* Coins arrondis, ajustez la valeur selon vos préférences */
+        background-color: black; /* Fond noir */
+        color: white; /* Police blanche */
+        font-weight: bold;
+        padding: 10px 20px; /* Espace intérieur du bouton, ajustez selon vos besoins */
+        font-size: 16px; /* Taille de la police, ajustez selon vos besoins */
+        border: none; /* Supprime les bordures, si vous le souhaitez */
+        cursor: pointer; /* Affiche un curseur de main lors du survol, optionnel */
+      }
+      button:hover{
+        background-color: green;
+      }
+      
 }

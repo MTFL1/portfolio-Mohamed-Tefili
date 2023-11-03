@@ -1,4 +1,4 @@
-section {
+.mesProjets {
   width: 90%;
   display: flex;
   justify-content: center;
@@ -7,64 +7,21 @@ section {
   background-color: #071013;
   border-radius: 52px;
   margin-left: 5%;
-}
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre douce */
 
-h2{
+  
+}
+.titleProject{
   display: flex;
   justify-content: center;
-  background-color: #071013;
-  color: white;
-  border-bottom: 4px solid;
+  color: black;
 }
-
 .contenairAllProject {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 50px;
+  padding-top: 10px;
   padding-bottom: 50px;
 }
 
-.containerTextImage img {
-  width: 558px;
-  height: 300px;
-  margin: 15px;
-  border-radius: 12px 12px 0 0;
-}
-
-.textProject{
-  display: flex;
-  justify-content: center;
-  width: 90%;
-  border: 4px solid;
-  background-color: #071013;
-  color: white;
-  border-radius: 8px;
-  margin-left: 5%;
-  font-weight: bold;
-  margin-top: 20px;
-
-}
-
-.description-project{
-background-color: blue;
-display: flex;
-justify-content: space-around;
-border-radius: 0 0 12px 12px;
-width: 558px;
-flex-grow: 1;
-margin-left: 10px;
-margin-top: -13px;
-padding-bottom: 20px;
-color: white;
-
-    ul{
-      list-style-type: none;
-    }
-    h3{
-      display: flex;
-      justify-content: center;
-      margin-right: 30px;
-    }
-}
