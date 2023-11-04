@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio-Mohamed-Tefili/static/css/main.b5fc1579.css",
-    "main.js": "/portfolio-Mohamed-Tefili/static/js/main.e9ed34b9.js",
+    "main.css": "/portfolio-Mohamed-Tefili/static/css/main.fd52f92d.css",
+    "main.js": "/portfolio-Mohamed-Tefili/static/js/main.b0bd8b42.js",
     "static/media/Ninacarducci.png": "/portfolio-Mohamed-Tefili/static/media/Ninacarducci.9b18eb8425769102741c.png",
     "static/media/ohmyfood.png": "/portfolio-Mohamed-Tefili/static/media/ohmyfood.affaab6b0580ed65498f.png",
     "static/media/Kasa.png": "/portfolio-Mohamed-Tefili/static/media/Kasa.d94c19ecae5527f07f38.png",
@@ -26,11 +26,11 @@
     "static/media/FIGMA.png": "/portfolio-Mohamed-Tefili/static/media/FIGMA.45462c248558846921ae.png",
     "static/media/JS.png": "/portfolio-Mohamed-Tefili/static/media/JS.aea0a233ca02e9c20f4b.png",
     "index.html": "/portfolio-Mohamed-Tefili/index.html",
-    "main.b5fc1579.css.map": "/portfolio-Mohamed-Tefili/static/css/main.b5fc1579.css.map",
-    "main.e9ed34b9.js.map": "/portfolio-Mohamed-Tefili/static/js/main.e9ed34b9.js.map"
+    "main.fd52f92d.css.map": "/portfolio-Mohamed-Tefili/static/css/main.fd52f92d.css.map",
+    "main.b0bd8b42.js.map": "/portfolio-Mohamed-Tefili/static/js/main.b0bd8b42.js.map"
   },
   "entrypoints": [
-    "static/css/main.b5fc1579.css",
-    "static/js/main.e9ed34b9.js"
+    "static/css/main.fd52f92d.css",
+    "static/js/main.b0bd8b42.js"
   ]
 }
