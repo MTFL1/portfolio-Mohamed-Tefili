@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/portfolio-Mohamed-Tefili/static/css/main.b5fc1579.css",
+    "main.js": "/portfolio-Mohamed-Tefili/static/js/main.e9ed34b9.js",
+    "static/media/Ninacarducci.png": "/portfolio-Mohamed-Tefili/static/media/Ninacarducci.9b18eb8425769102741c.png",
+    "static/media/ohmyfood.png": "/portfolio-Mohamed-Tefili/static/media/ohmyfood.affaab6b0580ed65498f.png",
+    "static/media/Kasa.png": "/portfolio-Mohamed-Tefili/static/media/Kasa.d94c19ecae5527f07f38.png",
+    "static/media/argentBank.png": "/portfolio-Mohamed-Tefili/static/media/argentBank.b1d7b647dc969a0fa7da.png",
+    "static/media/sophie-bluel.png": "/portfolio-Mohamed-Tefili/static/media/sophie-bluel.5b2cf2f08374b3883d96.png",
+    "static/media/Booki.png": "/portfolio-Mohamed-Tefili/static/media/Booki.c5f9299d8512e9fda211.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/portfolio-Mohamed-Tefili/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/fontawesome-webfont.eot": "/portfolio-Mohamed-Tefili/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/portfolio-Mohamed-Tefili/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/portfolio-Mohamed-Tefili/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/portfolio-Mohamed-Tefili/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "static/media/bigo.png": "/portfolio-Mohamed-Tefili/static/media/bigo.e9abbc390d99e0a7484e.png",
+    "static/media/coucou.png": "/portfolio-Mohamed-Tefili/static/media/coucou.38261cdde8aa7255bfda.png",
+    "static/media/pc.png": "/portfolio-Mohamed-Tefili/static/media/pc.5b8c2736888210895923.png",
+    "static/media/REACT.png": "/portfolio-Mohamed-Tefili/static/media/REACT.f9dea817de4d53492a81.png",
+    "static/media/SASS.png": "/portfolio-Mohamed-Tefili/static/media/SASS.7a63fac37ab33ab7ccf9.png",
+    "static/media/GITHUB.png": "/portfolio-Mohamed-Tefili/static/media/GITHUB.7a6bb9fd322cae9241e7.png",
+    "static/media/REDUX.png": "/portfolio-Mohamed-Tefili/static/media/REDUX.bc883626fb0dd224e720.png",
+    "static/media/SWAGGER.png": "/portfolio-Mohamed-Tefili/static/media/SWAGGER.04be5c4630ca5744b18f.png",
+    "static/media/CSS.png": "/portfolio-Mohamed-Tefili/static/media/CSS.c9afc0d4790ae2b74c59.png",
+    "static/media/GIT.png": "/portfolio-Mohamed-Tefili/static/media/GIT.8aaf18a08d5c5d2127b2.png",
+    "static/media/FIGMA.png": "/portfolio-Mohamed-Tefili/static/media/FIGMA.45462c248558846921ae.png",
+    "static/media/JS.png": "/portfolio-Mohamed-Tefili/static/media/JS.aea0a233ca02e9c20f4b.png",
+    "index.html": "/portfolio-Mohamed-Tefili/index.html",
+    "main.b5fc1579.css.map": "/portfolio-Mohamed-Tefili/static/css/main.b5fc1579.css.map",
+    "main.e9ed34b9.js.map": "/portfolio-Mohamed-Tefili/static/js/main.e9ed34b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5fc1579.css",
+    "static/js/main.e9ed34b9.js"
+  ]
+}
