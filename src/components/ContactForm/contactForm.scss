@@ -8,6 +8,7 @@
     margin-bottom: 40px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
+  font-family: 'Anton', sans-serif;
         
     img{
         width: 300px;
@@ -28,6 +29,11 @@
 .fa-phone{
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 15px;
+span{
+  font-family: 'Anton', sans-serif;
+
+}
 }
 .ButtonEnvoyer{
     button {
@@ -43,6 +49,22 @@
       }
       button:hover{
         background-color: green;
+        transform: translateY(-9px);
+        filter: brightness(100%);
+        box-shadow: 5px 15px 15px var(--gray-2);
+        transition: all 0.4s ease-in-out;
       }
       
+}
+
+
+
+@media (max-width: 720px) {
+  .contenairContactForm{
+      height: 520px;
+      width: 90%;
+
+  }
+
+
 }

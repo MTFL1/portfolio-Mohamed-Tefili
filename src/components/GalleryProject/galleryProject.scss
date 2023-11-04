@@ -8,6 +8,7 @@
   border-radius: 52px;
   margin-left: 5%;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre douce */
+  font-family: 'Anton', sans-serif;
 
   
 }
@@ -15,6 +16,8 @@
   display: flex;
   justify-content: center;
   color: black;
+  font-family: 'Anton', sans-serif;
+
 }
 .contenairAllProject {
   width: 100%;
@@ -25,3 +28,17 @@
   padding-bottom: 50px;
 }
 
+
+@media (min-width: 920px) {
+  .mesProjets{
+  width: 95%;
+  margin-left: 2.5%;
+
+  
+  }
+  }
+  
+  
+  @media (max-width: 720px) {
+
+  }

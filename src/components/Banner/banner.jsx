@@ -11,7 +11,7 @@ function Banner() {
       <div className="presentation">
         <h2>Mohamed Tefili</h2>
         <h3>Intégrateur Web</h3>
-          <p>Intégrateur web passionné, je transforme vos designs en sites web interactifs. Maîtrisant HTML, CSS, JavaScript et son framework React, je crée des expériences numériques exceptionnelles. Travaillons ensemble pour donner vie à votre vision en ligne.</p>
+          <p>En formation pour devenir Intégrateur web, je transforme vos designs en sites web interactifs. Maîtrisant HTML, CSS, JavaScript et son framework React, je crée des expériences numériques exceptionnelles. Travaillons ensemble pour donner vie à votre vision en ligne.</p>
       </div>
     </div>
   );

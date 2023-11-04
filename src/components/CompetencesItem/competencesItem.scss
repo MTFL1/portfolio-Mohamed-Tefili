@@ -1,13 +1,22 @@
 .item{
     display: flex;
     flex-direction: column;
-    width: 80px;
-    height: 80px;
-    border: 2px solid;
+    justify-content: center;
+    width: 100px;
+    height: 100px;
     margin: 10px;
     color: black;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    border-radius: 12px;
+img{
+    width: 100px;
+    height: 90px;
 
-    p{
-        color: black;
-    }
+}
+}
+.item:hover{
+    transform: translateY(-9px);
+    filter: brightness(100%);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre douce */
+    transition: all 0.4s ease-in-out;
 }

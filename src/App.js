@@ -1,5 +1,4 @@
 import Banner from "./components/Banner/banner"
-import './App.scss';
 import Header from './components/Header/header';
 import Footer from './components/Footer/footer';
 import GalleryProject from "./components/GalleryProject/galleryProject";

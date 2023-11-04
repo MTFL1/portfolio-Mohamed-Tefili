@@ -18,15 +18,10 @@
   img {
     width: 220px;
     height: 200px;
+    margin-left: 10px;
+
   }
 
-h2 {
-  font-size: 24px; 
-  margin-bottom: -20px; 
-  margin-top: -12px;
-  font-family: 'Anton', sans-serif;
-
-}
 
 
 .presentation {
@@ -36,11 +31,39 @@ h2 {
   flex: 1; 
   color: black;
   width: 80%;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+  h2 {
+    font-size: 24px; 
+    margin-bottom: -20px; 
+    margin-top: -5px;
   
+  }
+  h3{
+    font-family: 'Anton', sans-serif;
+  
+  }
+}
+}
+
+@media (min-width: 920px) {
+.banner{
+  margin-left: 29%;
+
 }
 }
 
 
+@media (max-width: 720px) {
+  .banner{
+    height: 400px;
+  width: 350px;
+    margin-left: 0%;
+
+  }
+
+
+}
 
 
 

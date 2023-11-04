@@ -9,7 +9,7 @@ function ContactForm() {
       <div className="emojiText">
         <img src={Emoji} alt="emoji qui fait signe de téléphoner" />
         <span>Vous avez un projet ? Discutons-en !</span>
-      <i className="fa fa-phone">&ensp;+33 6.27.23.59.76</i>
+      <i className="fa fa-phone"><span>&ensp;+33 6 27 23 59 76</span></i>
       </div>
         <div id="contactMoov">
           <a href="mailto:mohamed.tefili@gmail.com" className="ButtonEnvoyer">

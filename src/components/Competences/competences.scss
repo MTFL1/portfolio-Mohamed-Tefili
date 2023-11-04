@@ -16,4 +16,16 @@ h2{
     display: flex;
     justify-content: center;
     margin-top: 20px;
+  font-family: 'Anton', sans-serif;
+    
 }
+
+@media (max-width: 720px) {
+    .gallery{
+        height: 620px;
+        width: 90%;
+  
+    }
+  
+  
+  }
