@@ -8,6 +8,7 @@ function ProjectItem({ title, imageUrl, githubLink, description, skills }) {
       <div className="textProject">{title}</div>
       <a href={githubLink}>
         <img src={imageUrl} alt={`Projet ${title}`} />
+        <span>Cliquer pour voir</span>
       </a>
       <div className="description-project">
         <div className="competences">

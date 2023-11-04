@@ -13,7 +13,7 @@ import ArgentBankImage from "../../styles/img/argentBank.png";
 function GalleryProject() {
   return (
     <div>
-      <h2 className='titleProject'>MES PROJETS</h2>
+      <h2 id="project" className='titleProject'>MES PROJETS</h2>
 
 <section className="mesProjets">
       <div className="contenairAllProject">

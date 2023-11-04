@@ -1,3 +1,7 @@
+.containerTextImage {
+  position: relative; /* Permet le positionnement relatif */
+}
+
 .containerTextImage img {
     width: 558px;
     height: 300px;
@@ -6,7 +10,19 @@
 
     
   }
-  
+  .containerTextImage span {
+    position: absolute; /* Permet le positionnement absolu */
+    top: 50%; /* Place le texte au milieu de l'élément parent verticalement */
+    left: 50%; /* Place le texte au milieu de l'élément parent horizontalement */
+    transform: translate(-50%, -50%); /* Ajuste le positionnement du texte */
+    color: black; 
+    border: 1px solid;
+    border-radius: 12px;
+    padding: 5px;
+    box-shadow: 0 4px 6px rgba(33, 33, 33, 0.924); /* Ombre douce */
+
+    font-weight: bold;
+  }
   .containerTextImage:hover{
     transform: translateY(-12px);
     filter: brightness(100%);
