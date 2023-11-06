@@ -1,6 +1,6 @@
 .contenairContactForm{
     width: 40%;
-    margin: 0 auto; /* Ajoutez cette ligne pour centrer horizontalement */
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,8 +8,7 @@
     margin-bottom: 40px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 10px;
-  font-family: 'Anton', sans-serif;
-        
+    font-weight: bold;        
     img{
         width: 300px;
         height: 300px;
@@ -31,21 +30,21 @@
     margin-bottom: 10px;
     font-size: 15px;
 span{
-  font-family: 'Anton', sans-serif;
+  font-weight: bold;        
 
 }
 }
 .ButtonEnvoyer{
     button {
         margin-bottom: 10px;
-        border-radius: 10px; /* Coins arrondis, ajustez la valeur selon vos préférences */
-        background-color: black; /* Fond noir */
-        color: white; /* Police blanche */
+        border-radius: 10px; 
+        background-color: black; 
+        color: white;
         font-weight: bold;
-        padding: 10px 20px; /* Espace intérieur du bouton, ajustez selon vos besoins */
-        font-size: 16px; /* Taille de la police, ajustez selon vos besoins */
-        border: none; /* Supprime les bordures, si vous le souhaitez */
-        cursor: pointer; /* Affiche un curseur de main lors du survol, optionnel */
+        padding: 10px 20px; 
+        font-size: 16px; 
+        border: none; 
+        cursor: pointer; 
       }
       button:hover{
         background-color: green;

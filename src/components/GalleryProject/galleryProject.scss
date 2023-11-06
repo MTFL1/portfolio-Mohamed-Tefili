@@ -7,8 +7,9 @@
   background-color: #071013;
   border-radius: 52px;
   margin-left: 5%;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Ombre douce */
-  font-family: 'Anton', sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+  font-weight: bold;
+
 
   
 }
@@ -16,7 +17,7 @@
   display: flex;
   justify-content: center;
   color: black;
-  font-family: 'Anton', sans-serif;
+  font-weight: bold;
 
 }
 .contenairAllProject {
@@ -44,7 +45,7 @@
   }
 
   .containerTextImage {
-    position: relative; /* Permet le positionnement relatif */
+    position: relative; 
   }
   
   .containerTextImage img {
@@ -56,16 +57,16 @@
       
     }
     .containerTextImage span {
-      position: absolute; /* Permet le positionnement absolu */
-      top: 50%; /* Place le texte au milieu de l'élément parent verticalement */
-      left: 50%; /* Place le texte au milieu de l'élément parent horizontalement */
-      transform: translate(-50%, -50%); /* Ajuste le positionnement du texte */
+      position: absolute; 
+      top: 50%; 
+      left: 50%; 
+      transform: translate(-50%, -50%); 
       color: black; 
       border: 1px solid;
       border-radius: 12px;
       padding: 5px;
-      box-shadow: 0 4px 6px rgba(33, 33, 33, 0.924); /* Ombre douce */
-  
+      box-shadow: 0 4px 6px rgba(33, 33, 33, 0.924); 
+      background-color: #e9eaea;
       font-weight: bold;
     }
     .containerTextImage:hover{
@@ -93,7 +94,7 @@
     margin-top: -18px;
     padding-bottom: 20px;
     color: white;
-    box-shadow: 0 4px 6px rgba(33, 33, 33, 0.924); /* Ombre douce */
+    box-shadow: 0 4px 6px rgba(33, 33, 33, 0.924);
   
         ul{
           list-style-type: none;
