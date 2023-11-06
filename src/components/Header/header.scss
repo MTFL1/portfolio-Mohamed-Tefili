@@ -9,7 +9,7 @@ header {
     nav{
         width: 50%;
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         align-items: center;
         font-weight: bold;
     }
@@ -33,6 +33,12 @@ header {
     
     
     @media (max-width: 720px) {
-
+nav{
+    width: 90%;
+margin-right: 75px;
+}
   
+.no-underline{
+margin-left: 10px;
+}
     }
