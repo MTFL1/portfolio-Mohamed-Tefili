@@ -1,7 +1,6 @@
 import React from 'react';
 import "./competences.scss";
 import data from '../../Datas/CompetencesData.json';
-import CompetencesItem from '../CompetencesItem/competencesItem';
 
 import HTMLImage from '../../styles/img/HTML.png';
 import CSSImage from '../../styles/img/CSS.png';
@@ -17,53 +16,51 @@ import SwaggerImage from '../../styles/img/SWAGGER.png';
 function CompetencesGallery() {
   return (
     <div>
-      <h2 className="titleProject">COMPÉTENCES & OUTILS</h2>
+      <h2 id="competences" className="titleProject">COMPÉTENCES & OUTILS</h2>
       <section className="gallery">
-          {data.map((competence, index) => {
-            let image = null;
-            switch (competence.image) {
-              case "HTML.png":
-                image = HTMLImage;
-                break;
-              case "CSS.PNG":
-                image = CSSImage;
-                break;
-              case "SASS.png":
-                  image = SASSImage;
-                break;
-              case "JS.png":
-                image = JSImage;
-                break;
-              case "REACT.png":
-                image = ReactImage;
-                break;
-              case "REDUX.png":
-                image = ReduxImage;
-                break;
-              case "GIT.png":
-                image = GitImage;
-                break;
-              case "GITHUB.png":
-                image = GithubImage;
-                break;
-              case "FIGMA.png":
-                image = FigmaImage;
-                break;
-              case "SWAGGER.png":
-                image = SwaggerImage;
-                break;
-              default:
-                break;
-            }
+        {data.map((competence, index) => {
+          let image = null;
+          switch (competence.image) {
+            case "HTML.png":
+              image = HTMLImage;
+              break;
+            case "CSS.PNG":
+              image = CSSImage;
+              break;
+            case "SASS.png":
+              image = SASSImage;
+              break;
+            case "JS.png":
+              image = JSImage;
+              break;
+            case "REACT.png":
+              image = ReactImage;
+              break;
+            case "REDUX.png":
+              image = ReduxImage;
+              break;
+            case "GIT.png":
+              image = GitImage;
+              break;
+            case "GITHUB.png":
+              image = GithubImage;
+              break;
+            case "FIGMA.png":
+              image = FigmaImage;
+              break;
+            case "SWAGGER.png":
+              image = SwaggerImage;
+              break;
+            default:
+              break;
+          }
 
-            return (
-              <CompetencesItem
-                key={index}
-                name={competence.name}
-                image={image}
-              />
-            );
-          })}
+          return (
+            <div key={index} className="item">
+              <img src={image} alt={competence.name} />
+            </div>
+          );
+        })}
       </section>
     </div>
   );

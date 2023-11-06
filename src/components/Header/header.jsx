@@ -10,6 +10,7 @@ function Header() {
       
         <nav>
         <a className="no-underline" href="#project">Projets</a>
+            <a className="no-underline" href="#competences">Compétences</a>
             <a className="no-underline" href="#contactMoov">Contact</a>
         </nav>
     </header>

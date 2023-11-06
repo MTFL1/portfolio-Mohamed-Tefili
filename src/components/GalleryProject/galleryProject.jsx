@@ -1,5 +1,4 @@
 import React from 'react';
-import ProjectItem from '../ProjectItem/ProjectItem.jsx';
 import projects from '../../Datas/ProjectsData.json';
 import './galleryProject.scss';
 
@@ -15,48 +14,64 @@ function GalleryProject() {
     <div>
       <h2 id="project" className='titleProject'>MES PROJETS</h2>
 
-<section className="mesProjets">
-      <div className="contenairAllProject">
-        {projects.map((project, index) => {
-          let image = null;
-          switch (project.imageFileName) {
-            case "Booki.png":
-              image = BookiImage;
-              break;
-            case "ohmyfood.png":
-              image = OhMyFoodImage;
-              break;
-            case "sophie-bluel.png":
-              image = SophieBluelImage;
-              break;
-            case "Ninacarducci.png":
-              image = NinaCarducciImage;
-              break;
-            case "Kasa.png":
-              image = KasaImage;
-              break;
-            case "argentBank.png":
-              image = ArgentBankImage;
-              break;
-            default:
-              break;
-          }
+      <section className="mesProjets">
+        <div className="contenairAllProject">
+          {projects.map((project, index) => {
+            let image = null;
+            switch (project.imageFileName) {
+              case "Booki.png":
+                image = BookiImage;
+                break;
+              case "ohmyfood.png":
+                image = OhMyFoodImage;
+                break;
+              case "sophie-bluel.png":
+                image = SophieBluelImage;
+                break;
+              case "Ninacarducci.png":
+                image = NinaCarducciImage;
+                break;
+              case "Kasa.png":
+                image = KasaImage;
+                break;
+              case "argentBank.png":
+                image = ArgentBankImage;
+                break;
+              default:
+                break;
+            }
 
-          return (
-            <ProjectItem
-              key={index}
-              title={project.title}
-              imageUrl={image}
-              githubLink={project.githubLink}
-              description={project.description}
-              skills={project.skills}
-            />
-          );
-        })}
-      </div>
-    </section>
+            return (
+              <div key={index} className="containerTextImage">
+                <div className="textProject">{project.title}</div>
+                <a href={project.githubLink}>
+                  <img src={image} alt={`Projet ${project.title}`} />
+                  <span>Cliquer pour voir</span>
+                </a>
+                <div className="description-project">
+                  <div className="competences">
+                    <h3>Descriptions</h3>
+                    <ul>
+                      {project.description.map((item, index) => (
+                        <li key={index}>{item}</li>
+          ))}
+                    </ul>
+                  </div>
+                  <div className="competences">
+                    <h3>Compétences</h3>
+                    <ul>
+                      {project.skills.map((skill, index) => (
+                        <li key={index}>{skill}</li>
+          ))}
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
     </div>
-    
   );
 }
 
